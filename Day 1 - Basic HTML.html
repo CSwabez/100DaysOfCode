@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1>Heading 1</h1>
+  <h2>Sub-Heading</h2>
+    <h3>and so on</h3>
+</head>
+<body>
+    <main>
+      <p>Paragraph Text</p>
+        <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--KLoUWqZ---/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/u5d7sosk30lm7pex8lqc.png"
+        alt="100 days of code image"><br>
+        <!--anchor external url (target attribute causes link to open in new tab)-->
+        <a href="https://www.100daysofcode.com/" target="_blank">100 Days of Code</a><br>
+        <!--anchor internal link-->
+        <a href="#footer">Jump to Footer</a>
+      <p><a target="_blank" href="https://www.lipsum.com">Lorem ipsum dolor</a> sit amet, consectetur adipiscing elit. Nunc ultricies dolor in lacus vestibulum blandit. Aliquam vel eros ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempus porttitor sem, nec eleifend mauris pulvinar sit amet. Donec in leo est. Pellentesque commodo augue id sem dapibus, et vulputate dui tincidunt. Suspendisse lacinia dolor risus. Mauris pharetra neque neque, nec ullamcorper sem volutpat ac.
+
+Vivamus convallis purus sed mi iaculis venenatis a in nibh. Praesent at dignissim erat. Quisque quis ante efficitur, sollicitudin libero eu, rhoncus purus. In faucibus nisi eget congue varius. Vestibulum id ipsum vitae mi porttitor dictum eu eget massa. Vivamus in tempus mi. Nam gravida luctus nunc vel viverra. Proin dignissim finibus ullamcorper. Pellentesque vestibulum, lectus faucibus tincidunt interdum, lorem mauris laoreet neque, nec gravida urna dui vitae tellus. Etiam facilisis bibendum cursus. Aenean suscipit elementum mauris sed pulvinar. Mauris pulvinar at lacus vitae efficitur. Duis aliquam lectus ut nibh tempor vestibulum. Duis gravida, odio non pulvinar maximus, lorem neque maximus elit, id ullamcorper leo lorem id nibh.
+
+Sed interdum erat id nulla interdum, nec tincidunt ex posuere. Phasellus rhoncus nisi at augue laoreet auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin faucibus urna in dictum sagittis. Cras egestas lobortis metus sit amet condimentum. In et erat sit amet neque sollicitudin molestie eget in quam. Duis maximus lectus id nibh fermentum blandit. Praesent vel ex sit amet ipsum varius pharetra a vel urna.
+
+Nullam congue nibh odio, sed sagittis eros cursus a. Praesent non justo ut augue accumsan fermentum. Nullam vulputate mollis tortor, et vehicula turpis dapibus quis. Quisque ornare enim sit amet efficitur gravida. Nullam eros velit, mollis vel sodales sit amet, feugiat vitae velit. Mauris eros ligula, imperdiet eu ipsum ut, consectetur tincidunt ligula. Mauris in elementum velit. Nunc cursus ligula ultricies sapien commodo convallis. Aliquam erat volutpat. Aliquam erat volutpat. Praesent eu molestie metus, non euismod enim. Maecenas laoreet pulvinar congue. Sed rutrum pretium mi, nec tincidunt diam porttitor a. Quisque varius quis sem in pharetra. Etiam feugiat porttitor turpis, eu facilisis lectus hendrerit quis. Morbi facilisis ex in orci tristique, et ultricies magna viverra.
+
+Aliquam dictum metus lorem, at venenatis sem accumsan ac. Duis ligula metus, posuere sit amet mauris et, hendrerit sodales sapien. Phasellus at sem lacus. Nulla maximus pretium sem, in varius justo venenatis vitae. Morbi aliquam rutrum sapien, et fringilla erat aliquet ac. Mauris ut consequat dui. Aliquam ut turpis nec tortor sodales dignissim. Nulla facilisi. Aenean semper nunc non libero mattis, id finibus elit tempus. Etiam id volutpat ante. Cras et urna lacus. Aliquam non lorem sed nisi pellentesque porttitor.</p><br>
+      <div>
+        <!--Lists-->
+        <!--unordered list-->
+        <p>Albums I like:</p>
+        <ul>
+          <li>To Pimp A Butterfly</li>
+          <li>2014 Forest Hills Drive</li>
+        </ul>
+        <!--ordered list-->
+        <p>Top 5 Anime</p>
+        <ol>
+          <li>One Piece</li>
+          <li>Death Note</li>
+          <li>Naruto</li>
+          <li>Hunter x Hunter</li>
+          <li>Full Metal Alchemist: Brotherhood</li>
+        </ol>
+      </div>
+
+      <!--Form-->
+      <p>Text Box</p>
+      <form action="https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/add-a-submit-button-to-a-form">
+        <!--Radio Buttons-->
+        <p>Best Movie</p>
+        <label for="Wolf of Wall Street">
+          <input id="Wolf of Wall Street" value="Wolf of Wall Street" type="radio" name="Best Movie" checked> Wolf of Wall Street
+        </label><br>
+        <label for="Straight Outta Compton">
+          <input id="Straight Outta Compton" value="Straight Outta Compton" type="radio" name="Best Movie"> Straight Outta Compton
+        </label>
+        <!--Checkboxes-->
+        <p>Songs you like</p>
+        <label for="APE$HIT">
+          <input id="APE$HIT" value="APE$HIT" type="checkbox" name="Songs"> APE$HIT
+        </label><br>
+        <label for="BOP">
+          <input id="BOP" value="BOP" type="checkbox" name="Songs"> BOP
+        </label><br>
+        <label for="C.R.E.A.M">
+          <input id="C.R.E.A.M" value="C.R.E.A.M" type="checkbox" name="Songs"> C.R.E.A.M
+        </label><br>
+        <!--textbox-->
+        <input type="text" required placeholder="Type here">
+        <!--Submit Button-->
+        <button type="Submit">Submit</button>
+      </form>
+</body>
+    <!--Footer-->
+    <h4 id="footer">Links to here</h4>
