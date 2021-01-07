@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /*We can also use CSS selectors to style specific attribute types, e.g. we may want to attribute margins to all radio buttons.*/
+      [type='radio'] {
+        margin: 20px 0px 20px 0px;
+      }
+      .box {
+        /*There are multiple units of measurement than can be used to style an element, absolute units like in(inches) or mm(millimetres), aswell as
+        relative units, such as em, which is a unit dependent on the font in use*/
+        border-style: double;
+        background-color: silver;
+        padding: 1.5em
+      }
+      /*The body element always exists in a html document whether it has been defined or not. If you assign it a value in CSS, it will work regardless
+      All elements on the page will inherit the styles defined in this body element. This does not take highest precedence, if you define a specific element's
+      style subsequently, it will take that style instead.*/
+      body {
+        background-color: pink;
+        font-family: monospace;
+        color: green;
+      }
+      .red-text {
+        /*The keyword !important gives highest precedence to a CSS style, this means that even if an inline styling is used, this class will be used
+        instead*/
+        color: red !important;
+      }
+      /*If an element is given both the red-text and purple-text classes, the one defined latest will be taken regardless of the order given in the HTML element
+      declaration.*/
+      .purple-text {
+        color: purple;
+      }
+      /*ID attributes always takes higher precedence, so regardless of whether this was declared before or after the two other color declarations, it would still hold*/
+      #orange-text {
+        color: orange
+      }
+      /*If you want, you can also use hexadecimal to define your colors, giving a larger range, this can be shortened to 3 rather than 6 digits to define
+      RGB if you can't be arsed.*/
+      .hex-text {
+        color: #66ffff
+      }
+      /*You can also use RGB if you wanna be long*/
+      .rgb {
+        color: rgb(255, 165, 0)
+      }
+    </style>
+  </head>
+  <body>
+      <main>
+        <p>Paragraph Text</p>
+          <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--KLoUWqZ---/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/u5d7sosk30lm7pex8lqc.png"
+          alt="100 days of code image"><br>
+          <!--anchor external url (target attribute causes link to open in new tab)-->
+          <a href="https://www.100daysofcode.com/" target="_blank">100 Days of Code</a><br>
+          <!--anchor internal link-->
+          <a href="#footer">Jump to Footer</a>
+        <p><a target="_blank" href="https://www.lipsum.com">Lorem ipsum dolor</a></p>
+        <!--inline styling takes precedence even over ID attributes-->
+        <div style="color: white" id="orange-text" class="purple-text red-text">
+          <!--Lists-->
+          <!--unordered list-->
+          <p>Albums I like:</p>
+          <ul>
+            <li>To Pimp A Butterfly</li>
+            <li>2014 Forest Hills Drive</li>
+          </ul>
+          <!--ordered list-->
+          <p>Top 5 Anime</p>
+          <ol>
+            <li>One Piece</li>
+            <li>Death Note</li>
+            <li>Naruto</li>
+            <li>Hunter x Hunter</li>
+            <li>Full Metal Alchemist: Brotherhood</li>
+          </ol>
+        </div>
+
+        <!--Form-->
+        <p class="hex-text">Text Box</p>
+        <form class="rgb" action="https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/add-a-submit-button-to-a-form">
+          <!--Radio Buttons-->
+          <p>Best Movie</p>
+          <label for="Wolf of Wall Street">
+            <input id="Wolf of Wall Street" value="Wolf of Wall Street" type="radio" name="Best Movie" checked> Wolf of Wall Street
+          </label><br>
+          <label for="Straight Outta Compton">
+            <input id="Straight Outta Compton" value="Straight Outta Compton" type="radio" name="Best Movie"> Straight Outta Compton
+          </label>
+          <!--Checkboxes-->
+          <p>Songs you like</p>
+          <label for="APE$HIT">
+            <input id="APE$HIT" value="APE$HIT" type="checkbox" name="Songs"> APE$HIT
+          </label><br>
+          <label for="BOP">
+            <input id="BOP" value="BOP" type="checkbox" name="Songs"> BOP
+          </label><br>
+          <label for="C.R.E.A.M">
+            <input id="C.R.E.A.M" value="C.R.E.A.M" type="checkbox" name="Songs"> C.R.E.A.M
+          </label><br>
+          <!--textbox-->
+          <input type="text" required placeholder="Type here">
+          <!--Submit Button-->
+          <button type="Submit">Submit</button>
+        </form>
+        <h2 class="box">Here's a box</h2>
+  </body>
