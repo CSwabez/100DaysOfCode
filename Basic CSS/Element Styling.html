@@ -1,0 +1,56 @@
+<!DOCSTYLE html>
+<!--Now we'll proceed to learn a bit about styling HTML. You may have already noticed this, but all HTML elements are essentially little rectangles.
+Three important properties control the space that surrounds each HTML element: padding, border, and margin.
+An element's padding controls the amount of space between the element's content and its border.-->
+<html>
+  <head>
+    <style>
+      .injected-text {
+        margin-bottom: -25px;
+        text-align: center;
+      }
+
+      .box {
+        border-style: solid;
+        border-color: black;
+        border-width: 5px;
+        text-align: center;
+      }
+
+      .yellow-box {
+        background-color: yellow;
+        /*Padding controls the amount of space between the contents of the element and the border surrounding it.*/
+        padding: 10px;
+      }
+
+      .red-box {
+        background-color: crimson;
+        color: #fff;
+        padding: 20px;
+        /*Margin controls the amount of space between an element's border and the elements surrounding it. Increasing this margin makes the box appear smaller
+        as it still must fit within the page. A margin can be negative, increasing it's size.*/
+        margin: 20px;
+      }
+
+      .blue-box {
+        background-color: blue;
+        color: #fff;
+        /*You can also change the padding for each individual side of an element, rather than doing all at once.*/
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-bottom: 500px;
+        padding-left: 15px;
+        /*Same can be done with margins*/
+        margin: 40px 20px 20px 40px;/*top right bottom left*/
+      }
+    </style>
+  </head>
+  <body>
+    <h5 class="injected-text">margin</h5>
+
+    <div class="box yellow-box">
+      <h5 class="box red-box">padding</h5>
+      <h5 class="box blue-box">padding</h5>
+    </div>
+  </body>
+</html>
