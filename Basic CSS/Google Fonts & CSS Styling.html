@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <head>
+    <!--In addition to specifying common fonts that are found on most operating systems, we can also specify
+     non-standard, custom web fonts for use on our website. There are many sources for web fonts on the Internet.
+     For this example we will focus on the Google Fonts library.
+     Google Fonts is a free library of web fonts that you can use in your CSS by referencing the font's URL.-->
+    <style>
+      .Lobster {
+        font-family: Lobster
+      }
+      /*You can also specify how a font should degrade, meaning if the chosen font is not available, it will use
+      another instead. */
+      h2 {
+        font-family: Lobster, sans-serif;
+        /*Here, Lobster is the desired font, but if this cannot be displayed, sans-serif will appear instead.
+        To see this in the browser, comment out the <link> at the top of the page.*/
+      }
+      /*The width of an element can also be decided in CSS, using px(pixels).*/
+      .image-width {
+        width: 200px;
+      }
+      /*One can also create a border around HTML elements, two different classes can be combined on one element
+      by separating the two classes with a space e.g. class="image-width black-border" */
+      .black-border {
+        border-color: black;
+        border-width: 5px;
+        border-style: double;
+        /*You can round out the edges of a border using the border-radius property, you can also use this property in the image-width class to achieve the same.
+        You can use either a px value or a percentage to define this.*/
+        border-radius: 10px;
+        /*border-radius: 10%;*/
+      }
+      /*One can create a background behind an element.*/
+      .background {
+        background-color: silver;
+      }
+      /*To reference an element id, rather than using .(style_name), we use #
+      An element reference will always take precedence over a class, so even if you assign the class on the element, it will be ignored.*/
+      #Album-Anime-Lists {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="Lobster">Testing out the Google Font: Lobster</h1>
+    <h2 class="background">Testing degradation</h2>
+    <a href="#"><!--Remember href="#" creates a dead link -->
+      <img class="image-width black-border" src="https://www.gstatic.com/images/icons/material/apps/fonts/1x/opengraph_color_blue_1200dp.png" alt="Google Fonts Logo">
+    </a>
+    <!--HTML elements can be given UNIQUE id attributes, which can be useful in styling specific elements and for certain JavaScript commands. -->
+    <div class="background" id="Album-Anime-Lists">
+      <!--Lists-->
+      <!--unordered list-->
+      <p>Albums I like:</p>
+      <ul>
+        <li>To Pimp A Butterfly</li>
+        <li>2014 Forest Hills Drive</li>
+      </ul>
+      <!--ordered list-->
+      <p>Top 5 Anime</p>
+      <ol>
+        <li>One Piece</li>
+        <li>Death Note</li>
+        <li>Naruto</li>
+        <li>Hunter x Hunter</li>
+        <li>Full Metal Alchemist: Brotherhood</li>
+      </ol>
+    </div>
+  </body>
+</html>
