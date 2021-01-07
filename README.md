@@ -9,3 +9,7 @@ I had already started an attempt on this challenge a few months ago after my exa
 ## Day 2 - Continued CSS (06/01/2021)
 I'm sticking to the 1 hour sessions for now, whilst I'm still in the early stages, but will eventually need to increase the daily time once I've taken to the habit of coding everyday as each of these full lessons are 300 hours and I can't spend almost a year on each.
  - Continued on the CSS section of the FreeCodeCamp course.
+
+## Day 3 - Basic CSS Complete (07/01/2021)
+I started later than usual today, mainly because I had other things I needed to do around the house first. Still managed to do the full hour though and went a bit over just to finish the CSS section, would've felt silly to leave it at 96%.
+ - Completed the Basic CSS Section of the course, will now be moving on to Applied Visual Design.
