@@ -13,3 +13,7 @@ I'm sticking to the 1 hour sessions for now, whilst I'm still in the early stage
 ## Day 3 - Basic CSS Complete (07/01/2021)
 I started later than usual today, mainly because I had other things I needed to do around the house first. Still managed to do the full hour though and went a bit over just to finish the CSS section, would've felt silly to leave it at 96%.
  - Completed the Basic CSS Section of the course, will now be moving on to Applied Visual Design.
+
+## Day 4 - Applied Visual Design (08/01/2021)
+Started a lot later than planned today, ended up finishing at almost midnight, since I spent alot of time helping with some other work. Almost decided to just leave it today but I'm glad I went ahead and got it done.
+ - Started the Applied Visual Design section of the course.
