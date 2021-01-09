@@ -17,3 +17,8 @@ I started later than usual today, mainly because I had other things I needed to 
 ## Day 4 - Applied Visual Design (08/01/2021)
 Started a lot later than planned today, ended up finishing at almost midnight, since I spent alot of time helping with some other work. Almost decided to just leave it today but I'm glad I went ahead and got it done.
  - Started the Applied Visual Design section of the course.
+
+## Day 5 - Colour Theory (09/01/2021)
+Managed to start earlier today. Got distracted in the middle and only did a little bit before there was hardly any time left. Chose to reset the timer and try again. Got the full hour finished and feel better for it.
+ - Continued the Applied Visual Design part of the course.
+ - Learnt a bit about colour theory and selected some colours I might decide to use when designing my website,
