@@ -22,3 +22,6 @@ Started a lot later than planned today, ended up finishing at almost midnight, s
 Managed to start earlier today. Got distracted in the middle and only did a little bit before there was hardly any time left. Chose to reset the timer and try again. Got the full hour finished and feel better for it.
  - Continued the Applied Visual Design part of the course.
  - Learnt a bit about colour theory and selected some colours I might decide to use when designing my website,
+
+## Day 6 - Animation (10/01/2021)
+Got into the animations section.
