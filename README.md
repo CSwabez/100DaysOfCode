@@ -25,3 +25,8 @@ Managed to start earlier today. Got distracted in the middle and only did a litt
 
 ## Day 6 - Animation (10/01/2021)
 Got into the animations section.
+
+## Day 7 - Accessibility (11/01/2021)
+Progress is going steadily, I'm continuing to write my own notes and versions of the lessons I'm learning in atom alongside each challenge.
+ - Completed the Applied Visual Design Section
+ - Started the Applied Accessbility Section
