@@ -30,3 +30,7 @@ Got into the animations section.
 Progress is going steadily, I'm continuing to write my own notes and versions of the lessons I'm learning in atom alongside each challenge.
  - Completed the Applied Visual Design Section
  - Started the Applied Accessbility Section
+
+## Day 8 - Continued Accessibility (12/01/2021>
+There probably won't be many updates on my feelings until I start the projects since it's just pretty steady and basic learning of the concepts at the moment.
+ - Continued the Applied Accessibility Section up to dates.
