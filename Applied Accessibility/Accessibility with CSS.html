@@ -1,0 +1,105 @@
+<!--Now that we have learnt the significance of logical html document outline, we can move on to incorporating CSS into the accessibility options.-->
+<DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /*CSS can be used to hide content meant only for screen readers. This means things such as tables of information provided to explain the content
+      displayed in a graph, since this is a visual medium and cannot be interpreted by a screen reader, whilse sighted users would not need the table.*/
+      .sr-only {
+        position: absolute;
+        left: -10000px;
+        width: 1px;
+        height: 1px;
+        top: auto;
+        overflow: hidden;
+      }
+      /*NOTE: It is important we do not use properties such as (display: none) or (visibility: hidden) as this would hide the content even from screen readers.
+      One should also not set the width and height measurements to 0 as this removes them from the document flow. Screen readers ignore these elements.*/
+
+      /*Another important factor to consider is the contrast between any text and the background it's displayed upon.
+      If you choose two very similar colours, it will become difficult for even those with good eyesight to read.
+      The Web Content Accessibility Guidelines (WCAG) recommend a minimum 4.5:1 contrast for normal text. There are many tools online to check this.*/
+      .dumb {
+        color: #D3D3D3;
+        background-color: #FFF;
+      }
+      .good {
+        color: #636363
+      }
+
+      /*This contrast doesn't just apply to similar colours, however. This is also used to determine if the colours will work for colourblind users.
+      For instance, maroon text on a dark-green background is a terrible idea and will score poorly.
+      The contrast ratio is dependent on the relative luminance of the background and foreground colours, so increasing the difference between the
+      lightness values of each element's hsl property will correct this.*/
+      .colourblind {
+        color: hsl(0, 55%, 20%);
+        background-color: hsl(120, 25%, 35%);
+      }
+      .contrast {
+        color: hsl(0, 55%, 15%);
+        background-color: hsl(120, 25%, 55%)
+      }
+
+      /*The most common form of colourblindness is a reduced sensitivity to detecting greens (so probably just avoid green tbh) rather than an
+      inability to see colour, we should avoid using similar greens in the background and foreground.
+      In general, you should probably just avoid using two hues adjacent on the colour wheel for background and foreground.*/
+      .terrible {
+        color: #33FF33;
+        background-color: #FFFF33;
+      }
+      .fine {
+        color: #003366;
+        background-color: #FFFF33;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Since a mouse is useless to highly visually-impaired users, we should ensure our site is set up to be navigated with keyboard-only.
+    One way to do this is to use accesskeys. These are shortcuts that can be used to activate or bring focus to a specific element on the page.-->
+    <h1><a id="imp_link" href="#" accesskey="i">Important Button</a></h1>
+
+    <!--Screen readers contain options aloowing users to determine what the screen reader will actually bother to interpret.
+    One such option is to just read the various links on the page. To that end, we should ensure that any links within text are given appropriate explanation.-->
+    <p>Click here for <a href="">Information on Accessibility with CSS</a></p>
+    <!--As you can see, the link was wrapped around "Information on Accessibility with CSS" rather than "Click here" as the latter explains nothing about the
+    content of the link.-->
+
+    <!--One way of navigating through a page using just the keyboard that most everyone relies on is the use of the tab key.
+    This will automatically focus on links and input fields and continue along in the order they are defined within the html.
+    We can use the tabindex property to assign the order that the tab will work through and also to define other elements to be focused with tab.-->
+    <form>
+      <fieldset>
+        <legend tabindex="0">Please select your favourite album from the choices listed below:</legend>
+        <input id="TPaB" type="radio" name="albums" value="To Pimp a Butterfly">
+        <label for="TPaB">To Pimp a Butterfly</label><br>
+        <input id="2014FHD" type="radio" name="albums" value="2014 Forest Hills Drive">
+        <label for="2014FHD">2014 Forest Hills Drive</label><br>
+        <input id="TCD" type="radio" name="albums" value="The College Dropout">
+        <label for="TCD">The College Dropout</label>
+      </fieldset>
+      <input type="submit" name="submit" value="Submit">
+    </form>
+
+    <h2 class="sr-only">
+      This text is hidden from view.
+    </h2>
+    <h2 class="dumb">
+      This is a dumb colour to use on a white background.
+    </h2>
+    <h2 class="good">
+      This works fine.
+    </h2>
+    <h2 class="colourblind">
+      This won't work for red-green colourblind users.
+    </h2>
+    <h2 class="contrast">
+      This will.
+    </h2>
+    <h3 class="terrible">
+      Are you an idiot?
+    </h3>
+    <h3 class="fine">
+      This is good.
+    </h3>
+  </body>
+</html>
