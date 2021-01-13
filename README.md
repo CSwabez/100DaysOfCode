@@ -34,3 +34,6 @@ Progress is going steadily, I'm continuing to write my own notes and versions of
 ## Day 8 - Continued Accessibility (12/01/2021>
 There probably won't be many updates on my feelings until I start the projects since it's just pretty steady and basic learning of the concepts at the moment.
  - Continued the Applied Accessibility Section up to dates.
+ 
+## Day 9 - Accessibility Complete (13/01/2021)
+ - Completed the Applied Accessibility Section, will move onto web design challenges next
