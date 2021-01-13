@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /*We can change the positioning of the contents of our html page relative to their normal position. In this case, other contents will still assume that
+      the element is in its default space.*/
+      h2 {
+        position: relative;
+        bottom: 20px;
+      }
+      /*We can also use absolute positioning which locks an element to a space relative to its parent container. This means we need to provide a position rule
+      of position: relative to the parent. Other elements on the page will also ignore this element. If you comment out this positioning here, the searchbar
+      will collide with the paragraph.*/
+      #searchbar {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+      }
+      /*We can use fixed positioning to lock an element to a space relative to the browser window. A fixed element will not move when the user scrolls
+       through the page. This is good for things such as navigation bars.*/
+      #navbar {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        background-color: grey;
+      }
+      nav ul {
+        margin: 0px;
+        padding: 5px 0px 5px 30px;
+      }
+      nav li {
+        display: inline;
+        margin-right: 20px;
+      }
+      #toolbar {
+        z-index: 2;
+      }
+      p {
+        z-index: 1;
+      }
+      /*We can position elements to the left or right of the window using the float command. This is good for adding sidebar content.*/
+      div {
+        float: left;
+      }
+      #sidebar {
+        float: right;
+      }
+      section {
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Heading 1</h1>
+    <h2>Moving on up!</h2>
+    <h3>Heading 3</h3>
+    <nav id="navbar">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+    <div>
+      <section>
+        <form id="searchbar">
+          <label for="search">Search:</label>
+          <input type="search" id="search" name="search">
+          <input type="submit" name="submit" value="Go!">
+        </form>
+        <p>Paragraph</p>
+      </section>
+    </div>
+    <box class="first"></box>
+    <box class="second"></box>
+    <side id="sidebar">
+      <h3>Sidebar</h3>
+    </side>
+  </body>
+</html>

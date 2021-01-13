@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      box {
+        width: 20%;
+        height: 200px;
+        margin-top: 20px;
+      }
+      /*When defining classes with absolute positioning, generally the latest class will take precedence, in that if they collide,
+      the second element will appear over the first.
+      We can use the z-index property to define the order that these elements are displayed in.*/
+      .first {
+        background-color: red;
+        position: absolute;
+        z-index: 2;
+      }
+      .second {
+        background-color: blue;
+        position: absolute;
+        left: 40px;
+        top: 50px;
+        z-index: 1;
+      }
+      div {
+        background-color: purple;
+        height: 100px;
+        width: 100px;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <box class="first"></box>
+    <box class="second"></box>
+    <div></div>
+  </body>

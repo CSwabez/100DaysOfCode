@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /*One can create a texturing in a background by adding a subtle pattern. The background property accepts a url function that allows images to be used.*/
+      body {
+        background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+        /*background: linear-gradient(black, #000099, #66c2ff, #ffcccc, #ffeee6);*/
+      }
+      /*We can also use the hsl (hue, saturation, light) property to colour our elements.
+      Hue is what people generally think of as 'color'. If you picture a spectrum of colors starting with red on the left,
+      moving through green in the middle, and blue on right, the hue is where a color fits along this line.
+      In hsl(), hue uses a color wheel concept instead of the spectrum, where the angle of the color on the circle is given as a value between 0 and 360.
+
+      Saturation is the amount of gray in a color. A fully saturated color has no gray in it, and a minimally saturated color is almost completely gray.
+      This is given as a percentage with 100% being fully saturated.
+
+      Lightness is the amount of white or black in a color. A percentage is given ranging from 0% (black) to 100% (white), where 50% is the normal color.*/
+      header {
+        background-color: hsl(180, 90%, 35%);
+        color: white;
+        padding: 0.25em;
+      }
+      /*We can see here how small changes in saturation and lightness can affect the tone of chosen hue.*/
+      nav {
+        background-color: hsl(180, 80%, 25%);
+      }
+      nav ul {
+        margin: 0px;
+        padding: 5px 0px 5px 30px;
+      }
+      nav li {
+        display: inline;
+        margin-right: 20px;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      /*Colours do not have to be flat solids, one can also transition one colour to another using the linear-gradient() function.*/
+      .whole {
+        background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+      }
+      h2 {
+        color: #09A7A1;
+      }
+      button {
+        background-color: #400080;
+        color: white;
+      }
+      /*We can use the transform property to transform our elements. This can be done using the scale() function, but there are many other functions
+      such as skewX(), skewY(), */
+      button:hover {
+        transform: scale(1.1);
+        animation-name: button-hover;
+        animation-duration: 500ms;
+        /*If nothing is added, the animation will revert the element back to its original form after completion, by adding this next line, we can tell
+        the element to keep its new form after the initial animation plays*/
+        animation-fill-mode: forwards;
+      }
+      @keyframes button-hover {
+        100% {
+          background-color: pink;
+        }
+      }
+      footer {
+        background-color: #09A7A1;
+        color: white;
+        padding: 0.5em;
+      }
+    </style>
+  </head>
+  <div class="whole">
+    <header>
+      <h1>Cooking with FCC!</h1>
+    </header>
+    <main>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Classes</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <article>
+        <h2>Machine Learning in the Kitchen</h2>
+        <p>Join this two day workshop that walks through how to implement cutting-edge snack-getting algorithms with a command line interface. Coding usually involves writing exact instructions, but sometimes you need your computer to execute flexible commands, like <code>fetch Pringles</code>.</p>
+        <button>Sign Up</button>
+      </article>
+      <article>
+        <h2>Bisection Vegetable Chopping</h2>
+        <p>This week-long retreat will level-up your coding ninja skills to actual ninja skills. No longer is the humble bisection search limited to sorted arrays or coding interview questions, applying its concepts in the kitchen will have you chopping carrots in O(log n) time before you know it.</p>
+        <button>Sign Up</button>
+      </article>
+    </main>
+    <br>
+    <footer>&copy; 2018 FCC Kitchen</footer>
+  </div>
+</html>

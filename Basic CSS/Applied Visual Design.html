@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /*CSS has many options for displaying text, one such option is the text-align function*/
+      .card {
+        border: double grey;
+        border-radius: 5px;
+        padding: 0px 20px 20px 20px;
+        width: 500px;
+      }
+      h2 {
+        /*Here the rgba element is used to change the background colour of heading 2, this uses red, green, blue and opacity to define the colour*/
+        background-color: rgba(45, 45, 45, 0.1);
+        padding: 10px;
+        font-size: 27px;
+        text-transform: capitalize;
+      }
+      p {
+        text-align: justify;
+        font-family: Arial;
+        line-height: 20px;
+      }
+      /*Here we will add shadows to the card to give the effect of it popping off the page.
+      This element takes values for:
+        - offset-x (how far to push the shadow horizontally from the element),
+        - offset-y (how far to push the shadow vertically from the element),
+        - blur-radius,
+        - spread-radius
+        - color
+      in that order. Multiple box-shadows can be created by using commas to separate properties of each box-shadow element.*/
+      #thumbnail {
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      }
+      .links {
+        text-align: center;
+        opacity: 0.7;
+        margin-right: 20px;
+      }
+      a {
+        color: black;
+      }
+      /*We can decide on how parts of our page will act dependent on user actions performed upon them. For example, if we hover the mouse*/
+      a:hover {
+        color: #ff00ff;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="thumbnail" class="card">
+      <h2 style="text-align: center">to pimp a butterfly</h2>
+      <!-- This <hr> tag creates a horizontal line through the page, this is a self-closing tag so you don't need to use </hr>-->
+      <hr>
+      <p>
+        <!--We can use CSS styles to edit text in specific ways, such as making it bold, italicised, underlined etc.-->
+        <strong>To Pimp a Butterfly</strong> is the third studio album by American rapper <u>Kendrick Lamar</u>.
+        It was released on March 15, 2015, by <s>TDE </s><em>Top Dawg Entertainment</em>, Aftermath Entertainment and Interscope Records.
+        The album was recorded in studios throughout the United States, with production from Sounwave, Terrace Martin, Taz "Tisa" Arnold,
+        Thundercat, Rahki, LoveDragon, Flying Lotus, Pharrell Williams, Boi-1da, Knxwledge, and several other high-profile hip hop producers,
+        as well as executive production from Dr. Dre and Anthony "Top Dawg" Tiffith.
+        Guest appearances include Thundercat, George Clinton, Bilal, Anna Wise, Snoop Dogg, James Fauntleroy, Ronald Isley, and Rapsody.<br><br>
+        Other albums by Kendrick:
+      </p>
+      <a href="https://en.wikipedia.org/wiki/Section.80" target="_blank" class="links">Section.80</a>
+      <a href="https://en.wikipedia.org/wiki/Good_Kid,_M.A.A.D_City" target="_blank" class="links">Good Kid, M.A.A.D City</a>
+      </div>
+  </body>
+</html>
