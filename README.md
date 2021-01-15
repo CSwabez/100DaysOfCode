@@ -36,4 +36,8 @@ There probably won't be many updates on my feelings until I start the projects s
  - Continued the Applied Accessibility Section up to dates.
  
 ## Day 9 - Accessibility Complete (13/01/2021)
- - Completed the Applied Accessibility Section, will move onto web design challenges next
+ - Completed the Applied Accessibility Section, will move onto Responsive Web Design next.
+ 
+## Day 10 - CSS Flexbox (14/01/2021)
+The Responsive Web Design section was very short so I got through that much quicker than the other topics. I've moved on to CSS flexbox now. I feel that the FreeCodeCamp tutorials for Flexbox by themself aren't all that great for learning this new concept so I've opted to pair them with another medium. For this I'll be using Flexbox Zombies from Mastery Games.
+ - Completed the Responsive Web Design Challenges section.
