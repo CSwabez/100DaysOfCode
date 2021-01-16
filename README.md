@@ -45,3 +45,7 @@ The Responsive Web Design section was very short so I got through that much quic
 ## Day 11 - Flexbox Zombies (15/01/2021)
 I think I made the right choice using Flexbox Zombies, it taches you step-by-step and gives plenty of opportunities for practice. The next section on FreeCodeCamp is CSS Grid and Mastery Games also has a game for that, Grid Critters, so I will likely also use that for the next section.
  - Completed up to and including Chapter 4 of Flexbox Zombies.
+
+## Day 12 - Flexbox Zombies (16/01/2021)
+I've been starting too late recently so today I made an effort to ensure that this was the first thing I did after having breakfast, feels a lot more productive this way.
+ - Completed Chapter 7 of Flexbox Zombies.
