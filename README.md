@@ -49,3 +49,7 @@ I think I made the right choice using Flexbox Zombies, it taches you step-by-ste
 ## Day 12 - Flexbox Zombies (16/01/2021)
 I've been starting too late recently so today I made an effort to ensure that this was the first thing I did after having breakfast, feels a lot more productive this way.
  - Completed Chapter 7 of Flexbox Zombies.
+
+## Day 13 - Flexbox Zombies (17/01/2021)
+I've completed up to and including chapter 11 of the game. Only one chapter left which I assume will be to combine everything I've learnt, so I'll leave this until tomorrow to see if it's stuck. I'll move onto Grid once this is done.
+ - Completed Chapter 11 of Flexbox Zombies
