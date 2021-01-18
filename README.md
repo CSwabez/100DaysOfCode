@@ -53,3 +53,8 @@ I've been starting too late recently so today I made an effort to ensure that th
 ## Day 13 - Flexbox Zombies (17/01/2021)
 I've completed up to and including chapter 11 of the game. Only one chapter left which I assume will be to combine everything I've learnt, so I'll leave this until tomorrow to see if it's stuck. I'll move onto Grid once this is done.
  - Completed Chapter 11 of Flexbox Zombies
+ 
+## Day 14 - CSS Grid (18/01/2021)
+I've now completed all of the challenges in Flexbox Zombies, it's a great resource and I've managed to remember all of the commands over multiple days, will see how long that lasts. As it turns out, it's CSS Grid counterpart, Grid Critters, is not free. Rather it is $99, a sum I cannot currently afford so instead I will have to use other resources. I will bookmark it and see if it reduces price in a sale.
+ - Completed Flexbox Zombies
+ - Began the FreeCodeCamp CSS Grid Section and will complement it with Grid Garden.
