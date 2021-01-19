@@ -57,4 +57,6 @@ I've completed up to and including chapter 11 of the game. Only one chapter left
 ## Day 14 - CSS Grid (18/01/2021)
 I've now completed all of the challenges in Flexbox Zombies, it's a great resource and I've managed to remember all of the commands over multiple days, will see how long that lasts. As it turns out, it's CSS Grid counterpart, Grid Critters, is not free. Rather it is $99, a sum I cannot currently afford so instead I will have to use other resources. I will bookmark it and see if it reduces price in a sale.
  - Completed Flexbox Zombies
- - Began the FreeCodeCamp CSS Grid Section and will complement it with Grid Garden.
+ - ~~Began the FreeCodeCamp CSS Grid Section and will complement it with Grid Garden.~~
+ I decided instead of immediately starting Grid that it would be better for me to practice the Flexbox I learned on an actual website rather than just through the game. I started building a website based on music similar to the one from A Levels I did in Delphi/Pascal. I'm using Kurzgesagt and Spotify as references for the layout and theme of the website since I find their website aesthetically pleasing. I spent about 6 hours on coding today.
+  - Created most of the first page of my website using HTML/CSS and a tiny bit of JS. 
