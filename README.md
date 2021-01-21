@@ -63,3 +63,9 @@ I've now completed all of the challenges in Flexbox Zombies, it's a great resour
 
 ## Day 15 - HTML/CSS Practice (19/01/2021)
 I've been continuing on the website I started yesterday. Today I moved to altering how the elements would appear on the page. I used Michal Snik's AOS (Animate-On-Scroll) library to make the cards fade in and out of the page depending on the scroll position. It works very well and does exactly what I needed it to, my page is finally looking how I initially imagined. Spent about 3 hours coding today.
+
+## Day 16 - HTML/CSS Practice Continued (20/01/2021)
+Finetuned the website a bit more and found some bugs that would stop the webpage from working properly in some rare instances, spent my time fixing these.
+
+## Day 17 - CSS Grid (21/01/2021)
+Decided that I had spent enough time on the Flexbox practice and felt it was time to move onto Grid. I have done around half of the tutorial challenges for Grid today whilst continuing to make notes and my own versions of the challenges in Atom as I go.
