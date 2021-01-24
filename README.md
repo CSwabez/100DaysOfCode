@@ -69,3 +69,10 @@ Finetuned the website a bit more and found some bugs that would stop the webpage
 
 ## Day 17 - CSS Grid (21/01/2021)
 Decided that I had spent enough time on the Flexbox practice and felt it was time to move onto Grid. I have done around half of the tutorial challenges for Grid today whilst continuing to make notes and my own versions of the challenges in Atom as I go.
+
+## Day 18 - CSS Grid (22/01/2021)
+Completed the 2nd half of the Grid section today.
+
+## Day 19 - Grid Practice (23/01/2021)
+Before completing the projects section I wanted to challenge myself to re-create the webpage I made with Flexbox but with Grid. This took a few hours to do but I completed it and to a higher standard than my first attempt. Though I'm less familiar with Grid due to not having access to Grid Critters, I still find it simpler and more intuitive than Flexbox.
+ - Recreated webpage in Grid
