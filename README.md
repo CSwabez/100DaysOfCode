@@ -76,3 +76,10 @@ Completed the 2nd half of the Grid section today.
 ## Day 19 - Grid Practice (23/01/2021)
 Before completing the projects section I wanted to challenge myself to re-create the webpage I made with Flexbox but with Grid. This took a few hours to do but I completed it and to a higher standard than my first attempt. Though I'm less familiar with Grid due to not having access to Grid Critters, I still find it simpler and more intuitive than Flexbox.
  - Recreated webpage in Grid
+
+## Day 20 - HTML/CSS Projects (24/01/2021)
+Started the projects section of the html/CSS certification.
+
+## Day 21 - Survey Form Project (25/01/2021)
+Decided to do the Survey Form since the tribute page is quite basic and boring to complete. It doesn't really add anything that the other projects won't have so I'd rather work on more difficult and interesting projects.
+ - Completed the Survey form using HTML & CSS w/ both Flexbox and Grid
