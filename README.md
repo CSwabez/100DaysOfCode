@@ -83,3 +83,12 @@ Started the projects section of the html/CSS certification.
 ## Day 21 - Survey Form Project (25/01/2021)
 Decided to do the Survey Form since the tribute page is quite basic and boring to complete. It doesn't really add anything that the other projects won't have so I'd rather work on more difficult and interesting projects.
  - Completed the Survey form using HTML & CSS w/ both Flexbox and Grid
+
+## Day 22 - Survey Form Project (26/01/2021)
+Fixed some issues that would crop up when changing the aspect ratio.
+
+## Day 23 - Product Landing Page (27/01/2021)
+Started creating the Product Landing Page.
+
+## Day 24 - Product Landing Page (28/01/2021)
+Finished creating the Landing Page in the way I would like it to look. Tomorrow I will make a 2nd copy to change it to include everything the course wants.
