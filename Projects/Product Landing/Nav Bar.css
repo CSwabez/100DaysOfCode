@@ -1,0 +1,50 @@
+nav {
+  background: #000;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  font-size: 1.2em;
+  display: grid;
+  grid-template-columns: 0.5em auto;
+  grid-template-areas:
+    "icon navigation";
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+#icon {
+  left: 0;
+  padding-right: 1em;
+  width: 2.5em;
+  filter: invert(1);
+  height: auto;
+  align-self: center;
+  grid-area: navigation;
+}
+#icon:hover {
+  transform: scale(1.1);
+}
+.Home{margin-left: 1em;}
+/*.About{background:LightSalmon;}
+.Careers{background:PaleTurquoise;}
+.Contact{background:LightPink;}
+.Store{background:PaleGreen;}*/
+.nav-link {
+  font-family: roboto;
+  color: white;
+  list-style-type: none;
+  justify-self: center;
+}
+.nav-link:hover {
+  transform: scale(1.1);
+  border-bottom: 0.3em solid grey;
+	transition: all 0.3s ease-in-out;
+}
+.nav-tool {
+  grid-area: navigation;
+  display: grid;
+  grid-template-columns: repeat(5, 4.5em);
+}
