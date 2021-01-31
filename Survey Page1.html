@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Survey.css"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"></link>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Music Survey Form</h1>
+      <p id="description">Please let us know what types of music you prefer.</p>
+    </header>
+    <main>
+      <form id="survey-form">
+        <h3 id="disclaimer">Please note that your email will not be used for any advertising purposes</h3>
+        <p>Name*</p>
+        <input id="name" type="text" placeholder="Please enter your name." required>
+        <label id="name-label" for="name">Textbox to enter name</label>
+        <p>E-mail*</p>
+        <input id="email" type="email" placeholder="Please enter your E-mail." required>
+        <label id="email-label" for="email">Textbox to enter email address</label>
+        <p>Age</p>
+        <input id="number" type="number" placeholder="Please enter your Age (optional)" min="13" max="130">
+        <label id="number-label" for="number">Textbox to enter age, must be between 13 and 130</label>
+        <fieldset class="radio-set">
+          <legend>On average, how many hours a day do you listen to music?</legend>
+          <input id="time1" type="radio" name="hours" value="Less than an hour">
+          <label class="radio" for="time1">Less than an hour</label><br>
+          <input id="time2" type="radio" name="hours" value="1-2 hours">
+          <label class="radio" for="time2">1-2 hours</label><br>
+          <input id="time3" type="radio" name="hours" value="3-4 hours">
+          <label class="radio" for="time3">3-4 hours</label><br>
+          <input id="time4" type="radio" name="hours" value="4+ hours">
+          <label class="radio" for="time4">4+ hours</label>
+        </fieldset>
+        <p>Do you usually listen to one genre or multiple?</p>
+        <select id="dropdown" name="dropdown">
+          <option value="One">One</option>
+          <option value="Two to Three">One, with some exceptions</option>
+          <option value="Four to Five">Multiple Similar Genres (e.g Hip-Hop & Grime, Rock & Metal)</option>
+          <option value="More than Five">Multiple Different Genres</option>
+        </select>
+        <fieldset class="check-set">
+          <legend>Which genres do you listen to?</legend>
+          <input class="genre" id="hip-hop" type="checkbox" name="genres" value="Hip-Hop">
+          <label for="hip-hop">Hip-hop</label>
+          <input class="genre" id="r&b" type="checkbox" name="genres" value="R&B">
+          <label for="r&b">R&B</label>
+          <input class="genre" id="soul" type="checkbox" name="genres" value="Soul">
+          <label for="soul">Soul</label>
+          <input class="genre" id="blues" type="checkbox" name="genres" value="Blues">
+          <label for="blues">Blues</label>
+          <input class="genre" id="jazz" type="checkbox" name="genres" value="Jazz">
+          <label for="jazz">Jazz</label>
+          <input class="genre" id="pop" type="checkbox" name="genres" value="Pop">
+          <label for="pop">Pop</label>
+          <input class="genre" id="kpop" type="checkbox" name="genres" value="K-Pop">
+          <label for="kpop">K-Pop</label>
+          <input class="genre" id="house" type="checkbox" name="genres" value="House">
+          <label for="house">House</label>
+          <input class="genre" id="funk" type="checkbox" name="genres" value="Funk">
+          <label for="funk">Funk</label>
+          <input class="genre" id="d&b" type="checkbox" name="genres" value="Drum N' Bass">
+          <label for="d&b">Drum N' Bass</label>
+          <input class="genre" id="rock" type="checkbox" name="genres" value="Rock">
+          <label for="rock">Rock</label>
+          <input class="genre" id="folk" type="checkbox" name="genres" value="Folk">
+          <label for="folk">Folk</label>
+          <input class="genre" id="metal" type="checkbox" name="genres" value="Metal">
+          <label for="metal">Metal</label>
+          <input class="genre" id="country" type="checkbox" name="genres" value="Country">
+          <label for="country">Country</label>
+          <input class="genre" id="classical" type="checkbox" name="genres" value="Classical">
+          <label for="classical">Classical</label>
+        </fieldset>
+        <p>Any additional comments?</p>
+        <textarea id="comments" name="comment" rows="4" cols="50" placeholder="Please type here."></textarea><br>
+        <formgroup id="sub">
+          <input id="submit" type="submit" name="submit">
+        </formgroup>
+      </form>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
