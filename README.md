@@ -92,3 +92,9 @@ Started creating the Product Landing Page.
 
 ## Day 24 - Product Landing Page (28/01/2021)
 Finished creating the Landing Page in the way I would like it to look. Tomorrow I will make a 2nd copy to change it to include everything the course wants.
+
+## Day 25 - Product Landing Page (29/01/2021)
+The course wanted me to include things like an embedded video and an email input field which I didn't want on my original site but needed in order to submit the webpage, I've added these to a copy aswell as a media query fixing the layout for smaller screens.
+
+## Break
+Unfortunately, I will be quite busy with something else over the next 3 days will need to take a break here before continuing on.
