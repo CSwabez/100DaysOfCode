@@ -98,3 +98,9 @@ The course wanted me to include things like an embedded video and an email input
 
 ## Break
 Unfortunately, I will be quite busy with something else over the next 3 days will need to take a break here before continuing on.
+
+## Restart
+Well, I stopped for a lot longer than I was planning to, really fell off. Clearly I can't just continue and act like I'm sitll going after ignoring this for two months, restarting fresh again now.
+
+## Day 1 - JavaScript
+Completed some of the lessons on JavaScript, I'm ~50% of the way through the 1st section now.
